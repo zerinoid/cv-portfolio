@@ -1,0 +1,40 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+
+.navbar-light .navbar-nav .nav-link {
+    color: $text-color;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+.navbar-nav {
+    background-color: white;
+    padding-left: 0.7rem;
+
+    @media (min-width: 992px) {
+        background-color: unset;
+        padding-left: 0;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn {
+        font-size: 1.3rem;
+    }
+
+    .form-control {
+        padding-left: 1.2rem;
+        height: calc(1.5em + 1.2rem + 2px);
+        font-size: 1.35em;
+    }
+}

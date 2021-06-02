@@ -1,0 +1,28 @@
+$border-weight: 2px;
+
+.carContainer {
+    border: solid $border-weight;
+    width: 80vw;
+}
+
+.colNumber,
+.colTitle {
+    padding: 0.3rem 0.7rem;
+}
+
+.colNumber {
+    border-right: solid $border-weight;
+    flex: 0 1;
+    display: flex;
+}
+
+.rowBody {
+    border-top: $border-weight solid;
+    padding: 0.7rem 1rem 1rem;
+}
+
+@media (min-width: 768px) {
+    .carContainer {
+        width: 420px;
+    }
+}

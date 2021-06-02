@@ -1,0 +1,19 @@
+@import "../styles/variables";
+
+.navbar {
+    min-height: 76px;
+    background-color: $background;
+    filter: drop-shadow(0 -12px 13px black);
+
+    img {
+        width: 55vw;
+
+        @media (min-width: 576px) {
+            width: auto;
+        }
+    }
+}
+
+.columnDir {
+    flex-direction: column;
+}

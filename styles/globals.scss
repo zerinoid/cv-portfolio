@@ -1,0 +1,172 @@
+@import "custom.scss";
+@import "variables";
+
+// @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../public/fonts/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../public/fonts/Lato-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../public/fonts/Lato-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../public/fonts/Nunito-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../public/fonts/Nunito-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 18px;
+    background-color: $background;
+
+    @media (min-width: 768px) {
+        font-size: 18px;
+    }
+
+    color: $text-color;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nunito";
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.35rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.max-width {
+    max-width: 1390px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pad-mobile {
+    @media (max-width: 767.99px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+// Estilo input placeholders
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+    @media (min-width: 768px) {
+        font-size: 1.35rem;
+    }
+
+    color: $text-secondary;
+}
+
+textarea::-webkit-input-placeholder,
+input::-ms-input-placeholder {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+    @media (min-width: 768px) {
+        font-size: 1.35rem;
+    }
+
+    color: $text-secondary;
+}
+
+textarea::-webkit-input-placeholder,
+input::-moz-placeholder {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: $text-secondary;
+}
+
+textarea::-webkit-input-placeholder,
+input::moz-placeholder {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+    @media (min-width: 768px) {
+        font-size: 1.35rem;
+    }
+
+    color: $text-color;
+}
+
+// Css do Masonry
+.my-masonry-grid {
+    display: flex;
+    margin-left: -20px;
+    /* gutter size offset */
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    padding-left: 20px;
+    /* gutter size */
+    background-clip: padding-box;
+}
+
+/* Items styles */
+.my-masonry-grid_column>div {
+    background: $masonry-bg;
+    border: 2px solid $masonry-bd;
+    padding: 1.2rem;
+    margin-bottom: 20px;
+}
