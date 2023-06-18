@@ -8,13 +8,13 @@ export default function Feedback() {
         <div className={styles.container}>
             <div className="max-width">
                 <div className={styles.content}>
-                    <h5 className="mb-3">Quer um feedback?</h5>
+                    <h5 className="mb-3">Quer um orçamento?</h5>
                     <p className="mb-5">
                         Preencha seu email abaixo para receber
                         <br />
-                        o feedback da sua avaliação.
+                        um orçamento do seu projeto.
                         <br />
-                        Estamos tocendo por você!
+                        Vamos desenvolver juntos!
                     </p>
                     <InputGroup>
                         <InputGroup className="mb-3">
@@ -23,9 +23,7 @@ export default function Feedback() {
                                 aria-label="Digite seu email aqui..."
                                 aria-describedby="basic-addon2"
                             />
-                            <InputGroup.Append>
                                 <Button className="px-4">ENVIAR</Button>
-                            </InputGroup.Append>
                         </InputGroup>
                     </InputGroup>
                 </div>

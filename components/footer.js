@@ -20,7 +20,6 @@ export default function Footer() {
                             <br />
                             Este layout foi desenvolvido com <strong>React</strong> e{" "}
                             <strong>Next.js</strong> <br />
-                            do Grupo Comunique-se.
                         </p>
                         <p className={styles.nunito}>
                             IMPORTANTE: Compartilhe esse site <br />

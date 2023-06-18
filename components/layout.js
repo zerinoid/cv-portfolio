@@ -30,11 +30,11 @@ export default function Layout({ children }) {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse>
                         <Nav className="ml-auto">
-                            <Nav.Link href="#">O desafio</Nav.Link>
-                            <Nav.Link href="#">Recomendações</Nav.Link>
-                            <Nav.Link href="#">Feedback</Nav.Link>
-                            <Nav.Link href="#">A equipe</Nav.Link>
-                            <Nav.Link href="#">Comentários</Nav.Link>
+                            <Nav.Link href="#">Início</Nav.Link>
+                            <Nav.Link href="#">Skills</Nav.Link>
+                            <Nav.Link href="#">Orçamento</Nav.Link>
+                            <Nav.Link href="#">Depoimentos</Nav.Link>
+                            <Nav.Link href="#">Comentário</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </div>

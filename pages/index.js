@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <Layout>
             <Head>
-                <title>TesteInovação</title>
+                <title>Leonardo Zerino</title>
             </Head>
             <Banner />
             <Carousel />

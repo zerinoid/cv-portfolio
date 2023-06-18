@@ -9,19 +9,18 @@ export default function Carousel() {
     let items = [
         {
             id: 1,
-            title: "Organize seu tempo",
-            content:
-                "Verifique quanto tempo você tem disponível para realizar o teste com eficiência então crie pequenas metas para manter o ritmo."
+            title: "Curabitur lacinia pulvinar nibh",
+            content: "Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam."
         },
         {
             id: 2,
-            title: "Tire suas dúvidas",
+            title: "Nunc aliquet",
             content:
-                "Se houver alguma dúvida, procure o aplicador do teste, assim você terá melhores chances de entregar o que foi proposto."
+          "Augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio."
         },
         {
             id: 3,
-            title: "Seja Criativo",
+            title: "Suspendisse potenti",
             content:
                 " Existem várias formas de resolver uma questão de html e css ou javascript, mostre que você domina a melhor. "
         },
@@ -29,7 +28,7 @@ export default function Carousel() {
             id: 4,
             title: "Nullam rutrum",
             content:
-                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus."
+                "Integer placerat tristique nisl. Curabitur lacinia pulvinar nibh. Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.    "
         }
     ]
 
@@ -113,7 +112,7 @@ export default function Carousel() {
     return (
         <div className={styles.carousel}>
             <div className="max-width pad-mobile">
-                <h4 className="mb-3">Recomendações:</h4>
+                <h4 className="mb-3">Skills:</h4>
                 <Slider {...slickOptions}>
                     {items.map(item => {
                         return (

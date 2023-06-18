@@ -10,33 +10,32 @@ export default function Contato() {
         <Container className={`max-width ${styles.container}`}>
             <Row>
                 <Col md={6} className="pr-5">
-                    <h5 className="mb-4 mb-md-5">Gostou do teste?</h5>
+                    <h5 className="mb-4 mb-md-5">Gostou do site?</h5>
                     <p>
-                        Conte para nós oque você gostou no teste e o que você
-                        mudaria para melhor avaliar um cadidato à essa vaga. Sua
-                        opinião é importante para nós, queremos os melhores no
-                        nosso time.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.
+
+
                     </p>
                 </Col>
                 <Col md={6}>
                     <Form>
-                        <Form.Row className="mb-3">
+                        <Row className="mb-3">
                             <Col>
                                 <Form.Control placeholder="Nome" />
                             </Col>
                             <Col>
                                 <Form.Control placeholder="Sobrenome" />
                             </Col>
-                        </Form.Row>
-                        <Form.Row className="mb-3">
+                        </Row>
+                        <Row className="mb-3">
                             <Col>
                                 <Form.Control
                                     as="textarea"
-                                    rows={4}
+                                    rows={8}
                                     placeholder="Comentários"
                                 />
                             </Col>
-                        </Form.Row>
+                        </Row>
                         <Button
                             className={`${styles.contactButton} ml-auto d-block`}
                         >
