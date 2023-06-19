@@ -1,14 +1,14 @@
-@import "../styles/variables";
+@import '../styles/variables';
 
 .carousel {
-    background-color: $secondary;
-    padding: 40px 0;
-    color: white;
-    width: 100%;
+  background-color: $secondary;
+  padding: 40px 0;
+  color: white;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
-    .carousel {
-        height: 19rem;
-    }
+  .carousel {
+    height: 19rem;
+  }
 }

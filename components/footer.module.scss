@@ -1,43 +1,43 @@
-@import "../styles/variables";
+@import '../styles/variables';
 
 .footer {
-    width: 100%;
-    background-color: $footer;
-    color: white;
-    padding: 3rem 0 3rem;
+  width: 100%;
+  background-color: $footer;
+  color: white;
+  padding: 3rem 0 3rem;
 
-    p {
-        font-size: 1.35rem;
-    }
+  p {
+    font-size: 1.35rem;
+  }
 
-    .nunito {
-        font-family: "Nunito";
-    }
+  .nunito {
+    font-family: 'Nunito';
+  }
 }
 
 .redes {
+  display: flex;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+  width: 60%;
+
+  a {
     display: flex;
-    margin-bottom: 3rem;
-    justify-content: space-between;
-    width: 60%;
+  }
 
-    a {
-        display: flex;
-    }
-
-    img {
-        height: 1.5rem;
-    }
+  img {
+    height: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
-    .footer {
-        padding: 4rem 0 5rem;
-    }
+  .footer {
+    padding: 4rem 0 5rem;
+  }
 
-    .redes {
-        justify-content: space-between;
-        margin-left: auto;
-        width: 90%;
-    }
+  .redes {
+    justify-content: space-between;
+    margin-left: auto;
+    width: 90%;
+  }
 }

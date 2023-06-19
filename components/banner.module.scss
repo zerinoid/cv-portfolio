@@ -1,52 +1,50 @@
-@import "../styles/variables";
+@import '../styles/variables';
 
 .banner {
-    background: $color5 url(/images/banner.jpg) 20% 90%/cover no-repeat;
-    width: 100%;
-    padding: 2rem 2rem 1rem;
-    background-blend-mode: luminosity;
+  background: $color5 url(/images/banner.jpg) 20% 90% / cover no-repeat;
+  width: 100%;
+  padding: 2rem 2rem 1rem;
+  background-blend-mode: luminosity;
 }
 
 .paragraph {
+  .highlight {
+    color: $secondary;
+  }
 
-    .highlight {
-        color: $secondary;
-    }
+  .xs {
+    font-size: 1rem;
+  }
 
-    .xs {
-        font-size: 1rem;
-    }
+  .sm {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
 
-    .sm {
-        font-size: 1rem;
-        line-height: 1.1;
-    }
-
-    .lg {
-        font-size: 1.1rem;
-    }
+  .lg {
+    font-size: 1.1rem;
+  }
 }
 
 @media (min-width: 768px) {
-    .banner {
-        height: 19rem;
-        padding: 4.5rem 0 1rem;
-        background-position: center 90%;
+  .banner {
+    height: 19rem;
+    padding: 4.5rem 0 1rem;
+    background-position: center 90%;
+  }
+
+  .paragraph {
+    .xs {
+      font-size: 1.5rem;
     }
 
-    .paragraph {
-
-        .xs {
-            font-size: 1.5rem;
-        }
-
-        .sm {
-            font-size: 2rem;
-            line-height: 1.1;
-        }
-
-        .lg {
-            font-size: 2.5rem;
-        }
+    .sm {
+      font-size: 2rem;
+      line-height: 1.1;
     }
+
+    .lg {
+      font-size: 2.5rem;
+    }
+  }
 }
